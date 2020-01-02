@@ -1,0 +1,221 @@
+body {
+  font-family: 'Montserrat', Futura;
+  font-weight: 400;
+}
+
+/* TITLE SECTION */
+#title{
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.7;
+  margin-bottom: 5%;
+}
+
+/* CONTAINER-FLUID */
+.container-fluid {
+  padding: 3% 15%;
+  overflow: hidden;
+}
+
+/* NAVIGATION BAR */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+  font-weight: bold;
+  font-family: 'Ubuntu'
+}
+
+.nav-item {
+  padding: 0px 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+/* FIRST H1 */
+.first-header {
+  font-size: 3.5rem;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+/* DOWNLOAD BUTTONS */
+.download-button {
+  margin: 5% 3% 5% 0%;
+}
+
+/* IPHONE IMG */
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  margin: 3em 5em -12em;
+}
+
+/* FEATURE SECTION */
+#features {
+  text-align: center;
+  padding-top: 8%;
+  padding-bottom: 5%;
+}
+
+.features-icons {
+  color: #ef8172;
+  margin-bottom: 15px;
+}
+
+.features-titles {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.features-description {
+  color: #8f8f8f;
+}
+
+.features-icons:hover {
+  color: #ff4c68;
+}
+
+/* TESTIMONIAL SECTION */
+#testimonials {
+  padding-top: 7%;
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.testimonials-image {
+  border-radius: 105px;
+  align: center;
+  width: 10%;
+}
+
+/* PRESS SECTION */
+#press {
+  padding-bottom: 7%;
+  background-color: #ef8172;
+  text-align: center;
+}
+
+.Images-press {
+  display: inline-block;
+  width: 15%;
+  margin: 20px 20px 20px 50px;
+}
+
+
+
+/* BUY SECTION */
+#pricing {
+  padding: 100px;
+  text-align: center;
+  width: 100%;
+}
+
+.card-deck {
+  width: 100%;
+}
+
+.btn-pricing {
+  width: 100%;
+}
+
+.pricing-header {
+  margin-bottom: 0;
+}
+
+.simple-header {
+  margin-bottom: 3%;
+  font-size: 1.2rem;
+}
+
+.pricing-column {
+  margin-top: 3%;
+}
+
+/* CALL TO ACTION SECTION */
+.container-downloads {
+  background-color: #ff4c68;
+  text-align: center;
+  padding:10% 15%;
+}
+
+.cta-header {
+  color: #fff;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height:1.5;
+  margin-bottom:5%;
+}
+
+.cta-iphone-btn{
+  margin-right:2%;
+}
+
+.cta-android-btn{
+  margin-left:2%;
+}
+
+/* FOOTER SECTION */
+#footer{
+  background-color:#fff;
+  padding-top:10%;
+  padding-bottom:6%;
+  text-align:center;
+}
+
+.images-footer{
+  display:inline-block;
+  margin:1%;
+}
+
+.cta-copyright{
+  margin-top:1%;
+}
+
+
+
+/* MEDIA */
+@media (max-width:1200px) {
+  title-image {
+    position: static;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  .first-header, .cta-header {
+    font-size: 2.7rem;
+  }
+
+  .navbar-brand {
+    font-size: 2rem;
+  }
+
+  .testimonial-text {
+    font-size: 2.3rem;
+  }
+
+  .pricing-header {
+    font-size: 2.3 rem;
+    line-height: 1.3;
+    margin-bottom: 4%;
+  }
+
+
+}
